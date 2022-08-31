@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: dados do diretório
-      run: pwd
+      run: ls -la ../
 
     - name: Validando o pacote Java
       run: mvn package -Dmaven.test.skip
