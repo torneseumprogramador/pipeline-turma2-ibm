@@ -12,5 +12,4 @@ build:
 test:
   stage: test
   script:
-  - echo "Oi alunos"
-  - echo "da turma 2 IBM"
+  - mvn test
