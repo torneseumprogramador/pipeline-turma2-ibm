@@ -5,7 +5,15 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-20.04
-    
+
     steps:
     - name: Roda um script shell
       run: echo "Olá git actions"
+
+
+  test:
+    runs-on: ubuntu-20.04
+    
+    steps:
+    - name: Roda um script shell
+      run: echo "Olá git actions rodando teste"
