@@ -5,8 +5,7 @@ stages:
 build:
   stage: build
   script:
-  - echo "Oi alunos"
-  - echo "da turma 2 IBM"
+  - mvn package -Dmaven.test.skip
 
 test:
   stage: test
